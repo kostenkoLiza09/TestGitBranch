@@ -54,6 +54,11 @@ public class Main {
                 .sorted()
                 .collect(Collectors.toList());
         System.out.println( "Step6:" + step6);
+
+        Integer step7 = list.stream()
+                .max(Integer::compareTo)
+                .orElse(null);
+        System.out.println("Step7: " + step7);
     }
 
     public static void readFile (String fileName) throws IOException {
