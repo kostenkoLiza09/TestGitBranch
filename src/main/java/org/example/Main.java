@@ -58,7 +58,9 @@ public class Main {
         Integer step7 = list.stream()
                 .max(Integer::compareTo)
                 .orElse(null);
-        System.out.println("Step: " + step7);
+    .orElse(null);
+        System.out.println("Step7: " + step7);
+        System.out.println("Test Step1 size: " + step1.size());
     }
 
 
