@@ -59,7 +59,10 @@ public class Main {
                 .max(Integer::compareTo)
                 .orElse(null);
         System.out.println("Step7: " + step7);
+        System.out.println("Test Step1 size: " + step1.size());
+
     }
+
 
 
     public static void readFile (String fileName) throws IOException {
