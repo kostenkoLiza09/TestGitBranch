@@ -61,6 +61,7 @@ public class Main {
         System.out.println("Step7: " + step7);
     }
 
+
     public static void readFile (String fileName) throws IOException {
         Path path = Path.of(fileName);
         try (Stream<String> lines = Files.lines(path)) {
